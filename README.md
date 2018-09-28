@@ -1,12 +1,12 @@
 # AO-Radar
 
-Albion Online Player and Harvestable Radar
+Albion Online Radar
 
 # Getting Started
 
 * Download project as source code with git
 ```
-git clone https://github.com/rafalfigura/AO-Radar.git
+git clone https://github.com/SeeingBlue/AO-Radar.git
 
 ```
 * Launch AlbionRadaro.sln
@@ -48,7 +48,7 @@ Use [this](https://github.com/PcapDotNet/Pcap.Net/wiki/Using-Pcap.Net-in-your-pr
 
 This project is for Albion Online 1.12.365. May not work with other releases.
 
-## Authors
+## Original Authors
 
 * **_BLU** - *A lot of help with networking * - [0blu](https://github.com/0blu)
 * **Rafał Figura** - *Initial work* - [Sahee](https://github.com/rafalfigura)
@@ -62,10 +62,6 @@ This project is for Albion Online 1.12.365. May not work with other releases.
 ## License
 
 This project is licensed under the GNU General Public License v3.0 - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Thanks to _BLU for help
 
 ## Donations
 
