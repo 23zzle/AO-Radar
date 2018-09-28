@@ -1,4 +1,4 @@
-# AO-Radar
+# Albion Online Radar
 
 Albion Online Radar
 
