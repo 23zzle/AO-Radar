@@ -104,8 +104,8 @@ namespace AlbionRadaro
             Brush[] harvestBrushes = {
                 Brushes.Black,
                 Brushes.Gray,
-                Brushes.Gray,
-                Brushes.Gray,
+                Brushes.Tan,
+                Brushes.Green,
                 Brushes.Blue,
                 Brushes.Red,
                 Brushes.Coral,
@@ -177,6 +177,7 @@ namespace AlbionRadaro
                     {
                         if (!Settings.IsInTiers(h.Tier, h.Charges)) continue;
                         if (!Settings.IsInHarvestable((HarvestableType)h.Type)) continue;
+                        if (h.Tier is 1) continue;
 
                         if (h.Size == 0) continue;
 
@@ -243,7 +244,8 @@ namespace AlbionRadaro
                             switch (m.MobInfo.HarvestableMobType)
                             {
                                 case HarvestableMobType.ESSENCE:
-                                //idk?
+                                    //idk?
+                                    break;
                                 case HarvestableMobType.SWAMP:
                                     if (!Settings.IsInHarvestable(HarvestableType.FIBER)) continue;
                                     break;

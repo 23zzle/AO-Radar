@@ -59,6 +59,10 @@
     <Reference Include="Photon3DotNet">
       <HintPath>C:\Users\Rafal\Desktop\Nowy folder\Photon3DotNet.dll</HintPath>
     </Reference>
+    <Reference Include="Photon3Unity3D, Version=4.1.1.17, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\AlbionOnline\game\Albion-Online_Data\Managed\Photon3Unity3D.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />

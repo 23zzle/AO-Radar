@@ -329,7 +329,7 @@ namespace AlbionRadaro
         {
 
             if (Settings.PlaySoundOnPlayer())
-                new Thread(() => Console.Beep(1000, 1000)).Start();
+                new Thread(() => Console.Beep(1000, 750)).Start();
 
 
             int id = int.Parse(parameters[0].ToString());

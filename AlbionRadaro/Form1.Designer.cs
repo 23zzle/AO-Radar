@@ -238,9 +238,9 @@
             this.cbTier1230.AutoSize = true;
             this.cbTier1230.Location = new System.Drawing.Point(8, 17);
             this.cbTier1230.Name = "cbTier1230";
-            this.cbTier1230.Size = new System.Drawing.Size(56, 17);
+            this.cbTier1230.Size = new System.Drawing.Size(44, 17);
             this.cbTier1230.TabIndex = 0;
-            this.cbTier1230.Text = "1, 2, 3";
+            this.cbTier1230.Text = "2, 3";
             this.cbTier1230.UseVisualStyleBackColor = true;
             this.cbTier1230.CheckedChanged += new System.EventHandler(this.tierCheckChange);
             // 
