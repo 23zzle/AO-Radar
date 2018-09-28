@@ -227,6 +227,7 @@ namespace AlbionRadaro
 
                     foreach (Mob m in mList)
                     {
+                        
                         Single hX = -1 * m.PosX + lpX;
                         Single hY = m.PosY - lpY;
 
@@ -235,12 +236,14 @@ namespace AlbionRadaro
 
                         if (m.MobInfo != null)
                         {
+
+                            if (m.MobInfo.Tier is 1) continue;
                             mobTier = m.MobInfo.Tier;
                             mobType = m.MobInfo.MobType;
 
                             if (!Settings.IsInMobs(mobType)) continue;
                             if (!Settings.IsInTiers(mobTier, m.EnchantmentLevel)) continue;
-
+                            
                             switch (m.MobInfo.HarvestableMobType)
                             {
                                 case HarvestableMobType.ESSENCE:
